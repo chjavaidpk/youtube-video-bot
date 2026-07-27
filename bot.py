@@ -13,7 +13,7 @@ def run_bot():
     driver = webdriver.Chrome(options=chrome_options)
 
     # 🛑 یہاں اپنی یوٹیوب ویڈیو کا لنک بدلیں 🛑
-    video_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    video_url = "https://www.youtube.com/live/BiRIHj5irIk?is=Bn4pu4A8xEXPZMmu" 
 
     print("YouTube پر ویڈیو کھولی جا رہی ہے...")
     driver.get(video_url)
